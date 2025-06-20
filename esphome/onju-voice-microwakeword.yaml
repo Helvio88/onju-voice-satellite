@@ -7,12 +7,12 @@ substitutions:
   error_sound_url: "https://github.com/tetele/onju-voice-satellite/raw/main/res/error.mp3" # Error #8 by UNIVERSFIELD https://freesound.org/people/UNIVERSFIELD/sounds/734442/
   timer_finished_sound_url: "https://github.com/tetele/onju-voice-satellite/raw/main/res/timer_finished.mp3" # New Notification #6 by UNIVERSFIELD https://freesound.org/people/UNIVERSFIELD/sounds/734445/
 
-external_components:
-  - source:
-      type: git
-      url: https://github.com/gnumpi/esphome_audio
-      ref: dev-next
-    components: [adf_pipeline, i2s_audio]
+#external_components:
+#  - source:
+#      type: git
+#      url: https://github.com/gnumpi/esphome_audio
+#      ref: dev-next
+#    components: [adf_pipeline, i2s_audio]
 
 esphome:
   name: "${name}"
